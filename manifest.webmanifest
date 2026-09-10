@@ -1,0 +1,10 @@
+{
+  "name":"Treino & Nutrição",
+  "short_name":"Treino",
+  "description":"Painel pessoal para musculação, CrossFit, nutrição, hidratação, suplementos e evolução.",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f5f7fb",
+  "theme_color":"#101828",
+  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
