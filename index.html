@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#101828">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Treino & Nutrição">
+  <title>Treino & Nutrição</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css?v=1.0.0">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <div class="eyebrow" id="todayLabel"></div>
+    <h1 id="screenTitle">Hoje</h1>
+  </div>
+  <button class="icon-btn" id="profileBtn" aria-label="Perfil e configurações">⚙︎</button>
+</header>
+
+<main id="app" class="app-shell"></main>
+
+<nav class="bottom-nav" aria-label="Navegação principal">
+  <button class="nav-item active" data-route="home"><span>⌂</span><small>Home</small></button>
+  <button class="nav-item" data-route="nutrition"><span>◉</span><small>Nutrição</small></button>
+  <button class="nav-item" data-route="training"><span>◆</span><small>Treinos</small></button>
+  <button class="nav-item" data-route="evolution"><span>↗</span><small>Evolução</small></button>
+  <button class="nav-item" data-route="history"><span>▦</span><small>Histórico</small></button>
+</nav>
+
+<button class="fab" id="quickAdd" aria-label="Adicionar registro">＋</button>
+<div id="modalRoot"></div>
+<div id="toast" class="toast" role="status"></div>
+
+<script src="app.js?v=1.0.0"></script>
+</body>
+</html>
